@@ -128,6 +128,7 @@ h6 {
     background-attachment: fixed;*/
 }
 
+
 .banner h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
@@ -200,5 +201,26 @@ p.copyright {
 }
 
 .carousel-indicators .active {
-    background-color: grey;;
+    background-color: grey;
+}
+
+
+/* My own settings*/
+
+@media(max-width:767px) {
+    .banner {
+        background: none;
+       padding-top: 0px 0;
+           height: 0px;
+    }
+
+    #uba-hide-xs{
+        display: none !important;
+    }
+
+    #ubaImage {
+        /*height: 50px !important;*/
+         max-width: 50% !important;
+    }
+
 }
